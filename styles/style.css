@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 20px auto;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.block {
+    width: 50px;
+    height: 50px;
+    border: 1px solid silver;
+}
+
+.block:hover {
+    background-color: burlywood;
+}
+
+.bodySnake {
+    background-color: chocolate;
+    /* opacity: 1; */
+}
+
+.headSnake {
+    background-color: coral;
+    /* opacity: 1; */
+}
+
+.opacity {
+    transition: all .8s;
+    opacity: .5;
+}
+
+.aimSnake {
+    background-color: crimson;
+}
+
+.sail {
+    margin: auto;
+    margin-top: 40px;
+    font-size: 20px;
+    display: block;
+}
